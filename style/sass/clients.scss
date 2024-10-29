@@ -1,0 +1,45 @@
+.clients {
+	display: flex;
+}
+
+.clients__logos {
+	width: 60%;
+}
+
+.clients__list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+	li {
+		margin-right: 50px;
+		margin-bottom: 40px;
+	}
+}
+
+.clients__btn {
+	margin-top: 137px;
+}
+
+.clients-love {
+	display: inline-block;
+	margin-left: 40px;
+	padding-top: 5px;
+
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	line-height: 23px;
+	min-height: 47px;
+
+	color: $color-btn-love;
+
+	background: url('../images/love.svg') 
+	no-repeat left 19px top;
+}
+
+.clients__reviews {
+	font-family: 'Lato', sans-serif;
+	
+	width: 484px;
+	min-height: 378px;
+}

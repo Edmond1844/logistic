@@ -1,0 +1,23 @@
+.input {
+	padding-left: 30px;
+	padding-bottom: 12px;
+	width: 100%;
+	display: block;
+	border: none;
+	background: none;
+	color: $white;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	border-bottom: 1px solid rgba(255, 255, 255, .2);
+	transition: border-color .1s linear;
+}
+
+.input:focus {
+	outline: none;
+	border: none;
+	border-bottom: 1px solid $white;
+}
+
+.input::placeholder {
+	color: $white;
+}

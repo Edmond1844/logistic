@@ -1,0 +1,49 @@
+.footer {
+	background-color: $section-gray;
+	background-image: url('../images/tire-track-left.png'),
+	url('../images/tire-track-right.png');
+	background-repeat: no-repeat;
+	background-position: left -50px bottom -80px,
+	right -50px bottom -80px;
+
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+
+	padding: 41px 0 20px;
+}
+
+
+
+.footer__contacts {
+	line-height: 18px;
+	font-weight: 700;
+	font-size: 12px;
+	font-style: normal;
+
+	color: $text-srvice;
+
+	margin: 25px 0;
+
+	a {
+		color: inherit;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.footer__nav {
+	font-size: 12px;
+	line-height: 18px;
+
+	a {
+		color:	$color-link-service;
+
+		margin: 0 5px;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

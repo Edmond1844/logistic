@@ -1,0 +1,58 @@
+.reviews {
+	position: relative;
+
+	&::before {
+		content: '';
+		display: block;
+		width: 92px;
+		height: 126px;
+	
+		background: url("../images/lines.svg")
+		no-repeat;
+		position: absolute;
+		left: 3px;
+		top: -15px;
+		z-index: 1;
+	}
+}
+
+
+.reviews__item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	position: relative;
+	z-index: 2;
+}
+
+.reviews__header {
+	margin-left: 20px;
+}
+
+.reviews__name {
+	line-height: 22px;
+	font-size: 18px;
+	font-weight: 900;
+
+	color: $title-service;
+
+	margin-bottom: 2px;
+}
+
+.reviews__company {
+	font-size: 15px;
+	line-height: 18px;
+
+	color: $title-service;
+}
+
+.reviews__content {
+	line-height: 21px;
+	font-size: 15px;
+
+	color: $title-service;
+	
+	p {
+		margin-bottom: 20px;
+	}
+}

@@ -1,0 +1,27 @@
+.section {
+	margin: 60px 0;
+}
+
+.section--map {
+	background: url('../images/map.svg');
+	background-repeat: no-repeat;
+	background-position: left 30px top 85px;
+}
+
+.section--gray {
+	background-color: $section-gray;
+	padding: 60px 0;
+}
+
+.section__title {
+	font-family: 'Lato', sans-serif;
+	line-height: 54px;
+	font-size: 45px;
+	color: $title-service;
+	margin-bottom: 42px;
+
+	span {
+		color: $active-link;
+	}
+}
+

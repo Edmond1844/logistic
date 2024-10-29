@@ -1,0 +1,78 @@
+.mission-title {
+	position: absolute;
+	top: -76px;
+	left: 25%;
+
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	line-height: 108px;
+	font-size: 90px;
+
+	color: rgba(0, 0, 0, .05);
+
+	text-transform: uppercase;
+}
+
+.mission {
+	position: relative;
+	padding: 60px 30px;
+	margin-top: 107px;
+	margin-bottom: 30px;
+
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+
+	background: $white;
+	border-radius: 5px;
+	box-shadow: 0 5px 30px  rgba(0, 0, 0, .16);
+
+	width: 1240px;
+
+	&:before {
+		content: '';
+		display: block;
+		width: 38.4615%;
+		height: 2px;
+
+		position: absolute;
+		bottom: 0;
+		z-index: 1;
+
+		background: $active-link;
+		
+		right: 50%;
+	}
+
+	&:after {
+		content: '';
+		display: block;
+		width: 38.4615%;
+		height: 2px;
+
+		position: absolute;
+		bottom: 0;
+		z-index: 1;
+		background: $red-line;
+
+		left: 50%;
+	}
+
+	h3 {
+		font-weight: 700;
+		line-height: 36px;
+		font-size: 30px;
+
+		color: $active-link;
+
+		margin-bottom: 7px;
+	}
+
+	h4 {
+		line-height: 21px;
+		font-size: 21px;
+		font-weight: 500;
+
+		color: $text-srvice;
+	}
+}
+
